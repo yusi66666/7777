@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>综合平台 - 书籍详情</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>综合平台</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="book-categories.html">书籍分类</a></li>
+                <li><a href="book-details.html">书籍详情</a></li>
+                <li><a href="shopping-cart.html">购物车</a></li>
+	         <li><a href="order-history.html">我的订单</a></li>
+                <li><a href="社区">社区</a></li>
+                <li><a href="login.html">登录</a></li>
+                <li><a href="register.html">注册</a></li>
+            </ul>
+        </nav>
+    <section id="book-detail">
+        <img src="book-cover.jpg" alt="书籍封面" />
+        <h2>书名</h2>
+        <p>作者：[作者姓名]</p>
+        <p>出版社：[出版社名称]</p>
+        <p>出版日期：[具体日期]</p>
+        <p>简介：[书籍简介内容]</p>
+        <button onclick="addToCart()">加入购物车</button>
+    </section>
+    <footer>
+        <p>版权所有 © 综合平台，联系电话：12337652241，邮箱：1231414141@qq.com </p>
+
+    </footer>
+</body>
+
+</html>
+
+
+<section class="featured-books">
+    <h2>精选书籍推荐</h2>
+    <div class="book-item">
+        <img src="book-cover1.jpg" alt="《百年孤独》封面" />
+        <div class="book-info">
+            <h3>《百年孤独》</h3>
+            <p>作者：加西亚·马尔克斯</p>
+            <p>出版社：南海出版公司</p>
+            <p>出版日期：1982-08-01</p>
+            <p>价格：50</p>
+            <p>简介：一部魔幻现实主义巨著，描绘了布恩迪亚家族七代人的传奇故事，以及加勒比海沿岸小镇马孔多的百年兴衰，反映了拉丁美洲一个世纪以来风云变幻的历史</p>
+	   <button onclick="addToCart()">加入购物车</button>
+            <button onclick="window.location.href='book-detail.html?bookId=1'">查看详情</button>
+        </div>
+    </div>
